@@ -6,8 +6,8 @@ spring:
       server:
         git:
           uri: ${GITHUB_URL}
-          username: ${GITHUB_USERNAME}
-          password: ${GITHUB_PASSWORD}
+#          username: ${GITHUB_USERNAME}
+#          password: ${GITHUB_PASSWORD}
           default-label: main
 server:
   port: 8888
